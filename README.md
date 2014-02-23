@@ -27,13 +27,15 @@ First, locate where the Chrome extensions are located on you computer
 * Linux (*unconfirmed*): ```~/.config/google-chrome/Default/Extensions/```
 * Linux Chromium (*unconfirmed*): ```~/.config/chromium/Default/Extensions/```
 
-Next, figure out which folder belongs to Currently and add in the code.
-
-**Method 1:**
-* Open the dev console in Chrome (Mac: cmd+alt+i and Windows/Linux: F12)
+Next, look for the folder named ```ojhmphdkpgbibohbnpbfiefkgieacjmh``` 
+#####If you do not see this folder:
+* Open the Currently tab
+* Open the dev console (Mac: cmd+alt+i Windows/Linux: F12)
 * Hit esc or click on the console tab
 * Type ```document.URL```
 * The long string of characters between "chrome-extension://" and "/index.html" is the name of the folder that Currently is located in
+
+Finally,
 * Navigate into that folder and locate ```index.html```.
 * Edit this file and paste ```<script type="text/javascript" src="js/custom.js"></script>``` above the ```</html>``` tag at the bottom.
 * Create a file named ```custom.js``` inside of the js folder.
