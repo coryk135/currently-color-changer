@@ -45,5 +45,6 @@ Finally,
 * Edit this file and paste ```<script type="text/javascript" src="js/custom.js"></script>``` above the ```</html>``` tag at the bottom.
 * Create a file named ```custom.js``` inside of the js folder.
 * Copy and paste the contents of ```currently-color-changer.js``` into custom.js, save, and you're done!
+  * Alternatively, you can add the code inside of index.html like so, ```<script> insert code here </script>``` 
 
 **Note:** If currently is updated you may have to repeat this process.
