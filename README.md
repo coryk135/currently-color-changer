@@ -23,7 +23,7 @@ How to make this change permanent
 =================================
 First, locate where the Chrome extensions are located on you computer
 * Mac (confirmed): ```~/Library/Application\ Support/Google/Chrome/Default/Extensions/```
-* Windows (*unconfirmed*): ```C:\Documents and Settings\<User_Name>\Local Settings\Application Data\Google\Chrome\User Data\Default\Extensions\```
+* Windows (confirmed): ```%USERPROFILE%\AppData\Local\Google\Chrome\User Data\Default\Extensions\```
 * Linux (*unconfirmed*): ```~/.config/google-chrome/Default/Extensions/```
 * Linux Chromium (*unconfirmed*): ```~/.config/chromium/Default/Extensions/```
 
